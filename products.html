@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OraLabs – Personal Care Promos</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="OraLabs Home">
+      <img src="images/logo.svg" alt="OraLabs logo"/><span class="brand-name">OraLabs</span>
+    </a>
+    <nav class="menu" aria-label="Primary navigation">
+      <a href="products.html">Products</a>
+      <a href="capabilities.html">Capabilities</a>
+      <a href="about.html">About</a>
+      <a href="distributor.html">Distributor Hub</a>
+      <a class="cta" href="#become" data-cta>Become a Distributor</a>
+    </nav>
+    <button class="burger" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+
+<section class="container">
+  <h1 class="headline">Lip Balm</h1>
+  <div class="filter-bar" role="tablist" aria-label="Product filters">
+    <button class="filter-chip active" data-filter="all">All</button>
+    <button class="filter-chip" data-filter="spf">SPF Protection</button>
+    <button class="filter-chip" data-filter="non-spf">Non‑SPF Formulas</button>
+    <button class="filter-chip" data-filter="beeswax">All‑Natural Beeswax</button>
+  </div>
+
+  <div class="grid grid-4 product-grid">
+    <!-- Example product tiles -->
+    <a class="card product" href="product-single.html" data-tags="spf,beeswax">
+      <div class="thumb"><img alt="Ora Protection" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8 (1).png"/></div>
+      <h4>Ora Protection</h4><div class="price">$2.99</div>
+    </a>
+    <a class="card product" href="product-single.html" data-tags="non-spf,beeswax">
+      <div class="thumb"><img alt="Classic Beeswax" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8 (3).png"/></div>
+      <h4>Classic Beeswax</h4><div class="price">$2.99</div>
+    </a>
+    <a class="card product" href="product-single.html" data-tags="spf">
+      <div class="thumb"><img alt="Citrus SPF 15" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8 (2).png"/></div>
+      <h4>Citrus SPF 15</h4><div class="price">$3.49</div>
+    </a>
+    <a class="card product" href="product-single.html" data-tags="non-spf">
+      <div class="thumb"><img alt="Vanilla Smooth" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8 (1) (1).png"/></div>
+      <h4>Vanilla Smooth</h4><div class="price">$2.79</div>
+    </a>
+    <a class="card product" href="product-single.html" data-tags="beeswax">
+      <div class="thumb"><img alt="Natural Mint" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8.png"/></div>
+      <h4>Natural Mint</h4><div class="price">$2.99</div>
+    </a>
+    <a class="card product" href="product-single.html" data-tags="spf">
+      <div class="thumb"><img alt="Tropical SPF 30" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8 (2).png"/></div>
+      <h4>Tropical SPF 30</h4><div class="price">$3.99</div>
+    </a>
+    <a class="card product" href="product-single.html" data-tags="non-spf,beeswax">
+      <div class="thumb"><img alt="Honey Butter" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8 (3).png"/></div>
+      <h4>Honey Butter</h4><div class="price">$2.99</div>
+    </a>
+    <a class="card product" href="product-single.html" data-tags="non-spf">
+      <div class="thumb"><img alt="Berry Burst" src="images/Gemini_Generated_Image_73q8gn73q8gn73q8 (1).png"/></div>
+      <h4>Berry Burst</h4><div class="price">$2.79</div>
+    </a>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>© <span id="yr"></span> OraLabs • Parker, Colorado • FDA Registered</div>
+    <div class="small">Privacy • Terms • Contact</div>
+  </div>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
